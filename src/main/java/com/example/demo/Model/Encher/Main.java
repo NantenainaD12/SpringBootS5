@@ -12,7 +12,7 @@ public class Main {
         }
         List<Tout_encherir> toutEncherirs=Tout_encherir.find_by_id_encher(""+1);
         for (int i = 0; i < toutEncherirs.size(); i++) {
-            //System.out.println("I = "+toutEncherirs.get(i).getNom());
+            //System.out.println("I = "+touthlikEncherirs.get(i).getNom());
         }
         Instant instant = Instant.now();
         Timestamp timestamp = Timestamp.from(instant);
